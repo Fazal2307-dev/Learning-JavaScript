@@ -1,10 +1,20 @@
 console.log("hey Md ");
 
-const rdf = require('readline-sync');
+const readlineSync = require('readline-sync');
 
-// const userName =  readlineSync.question('May I know your name? ');
-// console.log(`Welcome, ${userName}!`);
+const userName =  readlineSync.question('May I know your name? ');
+console.log(`Welcome, ${userName}!`);
 
-const age = rdf.question('whats your age! ');
-console.log(`your age is ${age}`);
-// scanf("%d",&a);
+const userAge = readlineSync.question('whats your age! ');
+
+const userAgeNumber = Number(userAge);
+
+if(!isNaN(userAgeNumber)){
+    const currentYear = new Date().getFullYear();
+    const birthYear = currentYear - userAgeNumber;
+    console.log(`you'r born on this ${birthYear}.`);
+}
+else{
+    console.log("please provide correct age?:");
+}
+
