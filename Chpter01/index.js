@@ -47,6 +47,30 @@ var name = "fazal";
 //Temporal Dead Zone:-utna area jitne mein js ko pataa hai ki 
 // varible exist karta hai par aaplko value nhi deskta
 
-console.log(a);//not defined 
-let a=13;//you can't access before initialization
+// console.log(a);//not defined 
+// let a=13;//you can't access before initialization
 //a ka temporal dead zone line no 1 se 51 tak hai kunke tum usko pahle access nhi kar skte 
+
+
+// Hoisting  impact per type
+//Hoisting->ek varibale ko jab js mein bnate hain to wo vaiable do 
+// part mein toot jata hai and uska declare part uppar chala jata 
+// hai and uska intialization part neeche rah jata hai
+// let see example 
+
+// var a=12;
+// var a=undefined;
+// a = 12;
+
+// var ->hoist->undefined
+// let->hoist->X
+//Const->hoist>X
+
+console.log(a);
+var a=13;//undefinde because ye toote ga do part m first wala var a=undefined ; console.log(a);,then a=13; var ka temporal zone nhi  hota hai
+
+console.log(b);
+let b=13;//Reference error ye tds hai 
+
+
+
