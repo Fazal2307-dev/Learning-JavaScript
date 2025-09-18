@@ -73,12 +73,20 @@ var name = "fazal";
 // let b=13;//Reference error ye tds hai 
 
 //q1
-var a=13;
-{
-    var a=12;
+// var a=13;
+// {
+//     var a=12;
     
+// }
+// console.log(a);//a=12;
+
+//q2
+let a=12;//ye global block scope hai
+{
+    let a= 13;//ye sirf block scope hai
+    console.log("internal value:",a); //13
 }
-console.log(a);//a=12;
+console.log("Outside value:",a);//12
 
 
 
