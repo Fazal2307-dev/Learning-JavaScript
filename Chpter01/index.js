@@ -35,11 +35,18 @@ var name = "fazal";
 
 // }}
 // Reassingment and redeclartion
-var a=32;
-a=12;
-var a=78;
-console.log(a);
-let b=12;
-b=14;
+// var a=32;
+// a=12;//reassignment
+// var a=78;//redeclaration
+// console.log(a);
+// let b=12;
+// b=14;
 
-console.log(b);
+// console.log(b);
+
+//Temporal Dead Zone:-utna area jitne mein js ko pataa hai ki 
+// varible exist karta hai par aaplko value nhi deskta
+
+console.log(a);//not defined 
+let a=13;//you can't access before initialization
+//a ka temporal dead zone line no 1 se 51 tak hai kunke tum usko pahle access nhi kar skte 
