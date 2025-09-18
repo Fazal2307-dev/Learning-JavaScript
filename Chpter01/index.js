@@ -10,3 +10,11 @@
 //isliye var ka use karte hain for whole programm.
 var name = "fazal";
 // ye line no 11 se janhan tak code hai wanha taak valid hai
+//declartion & Initialization
+var a; //declartion
+var a=12;//declaration and intialization
+//jab bhi variable var se banega ye window m add karega 
+//function scoped hota hai
+//aap phirse declare karskte same name se hain error nhi aayega
+// same name variable se agar bnaya hai to var error nhi dega even value change hi kun na kardo
+//lekin same name variable se agar bnaya hai to let error daga even tumne value same kun na ho ya different
