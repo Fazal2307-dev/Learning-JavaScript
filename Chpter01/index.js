@@ -8,3 +8,5 @@
 //var ka use poore programm mmein use ho skta hai 
 // just like atm machine agar vo bhul jaye kon ho tum to har bar vo puche ga kon ho tum 
 //isliye var ka use karte hain for whole programm.
+var name = "fazal";
+// ye line no 11 se janhan tak code hai wanha taak valid hai
