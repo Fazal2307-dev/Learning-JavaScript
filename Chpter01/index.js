@@ -66,11 +66,22 @@ var name = "fazal";
 // let->hoist->X
 //Const->hoist>X
 
-console.log(a);
-var a=13;//undefinde because ye toote ga do part m first wala var a=undefined ; console.log(a);,then a=13; var ka temporal zone nhi  hota hai
+// console.log(a);
+// var a=13;//undefinde because ye toote ga do part m first wala var a=undefined ; console.log(a);,then a=13; var ka temporal zone nhi  hota hai
 
-console.log(b);
-let b=13;//Reference error ye tds hai 
+// console.log(b);
+// let b=13;//Reference error ye tds hai 
+
+//q1
+var a=13;
+{
+    var a=12;
+    
+}
+console.log(a);//a=12;
+
+
+
 
 
 
