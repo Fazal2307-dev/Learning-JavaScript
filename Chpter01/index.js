@@ -29,8 +29,17 @@ var name = "fazal";
 // thik hai tumne kaha ke var ek functional scope hai lekin function to to dikh hi nhi raha hai
 // haan lekin code run hoga to var function m jayega ye js engine karti hai jab code run hota hai ye behind the scene ka kaam hai 
 // let ek block scope hai ye sirf apne parent m use ho skta hai maan lo {{{let a=12;}}} to let sirf apne nazdik wale scope m hi use hoga 
-{{{
-    let a=90
-}console.log(a);
+// {{{
+//     let a=90
+// }console.log(a);
 
-}}
+// }}
+// Reassingment and redeclartion
+var a=32;
+a=12;
+var a=78;
+console.log(a);
+let b=12;
+b=14;
+
+console.log(b);
