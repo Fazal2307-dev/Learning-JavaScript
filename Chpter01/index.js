@@ -81,12 +81,12 @@ var name = "fazal";
 // console.log(a);//a=12;
 
 //q2
-let a=12;//ye global block scope hai
-{
-    let a= 13;//ye sirf block scope hai
-    console.log("internal value:",a); //13
-}
-console.log("Outside value:",a);//12
+// let a=12;//ye global block scope hai
+// {
+//     let a= 13;//ye sirf block scope hai
+//     console.log("internal value:",a); //13
+// }
+// console.log("Outside value:",a);//12
 
 
 
