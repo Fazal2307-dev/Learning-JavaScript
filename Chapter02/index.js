@@ -1,7 +1,10 @@
 /*
 data types:-1.primitive,2.Reference
 1.Primitive->aisi saree value jinko copy karne par tumhe ek real copy  mil jaaye
+string,number,boolean,null,undefined,symbol,bigint are primitive value;
+
 2.Refrence->inko copy karne par real copy nahi milegi but aapko refrence milega parent ka 
+(array,object ,function are refernce value )
 
 
 
