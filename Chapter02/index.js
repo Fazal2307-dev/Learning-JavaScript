@@ -14,6 +14,7 @@ array->[],object->{},function->() ka ye symbol hota hai
 let a =[1,2,3];
 let b=a;
 b.pop() karenge to dono m change hoga na ke sirf first wale m
+agar mujhe chahiye ke copy karke krun tu mujhe spread() ka use karna hoga
  
 
 
