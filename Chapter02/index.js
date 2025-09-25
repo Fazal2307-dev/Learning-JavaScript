@@ -10,6 +10,10 @@ let b=a;
 
 2.Refrence->inko copy karne par real copy nahi milegi but aapko refrence milega parent ka 
 (array,object ,function are refernce value )
+array->[],object->{},function->() ka ye symbol hota hai
+let a =[1,2,3];
+let b=a;
+b.pop() karenge to dono m change hoga na ke sirf first wale m
  
 
 
