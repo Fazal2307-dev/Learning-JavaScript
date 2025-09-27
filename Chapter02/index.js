@@ -31,6 +31,13 @@ undefined ->vo value aapko js engine se milti hai
 null-> jo aap dete ho
 
 
+symbol-> unique immutable(change nhi hone wala) value
+
+bigint->ek baade value ke liye 
+let a = 9007199254741003n
+
+
+
 
  
 
