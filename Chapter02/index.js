@@ -20,6 +20,18 @@ string->
 ''->single quotes
 " "->double quotes
 ` `->backtick
+
+null-> aap ne jaan bhuj kar koi value nhi di
+let selectedStudent=null;
+
+
+undefined->aapne ek varible bnaya aur usey value nhi di to jo value by default mili vo undefined hai
+let a;
+undefined ->vo value aapko js engine se milti hai 
+null-> jo aap dete ho
+
+
+
  
 
 
