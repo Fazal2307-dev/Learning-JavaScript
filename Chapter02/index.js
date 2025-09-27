@@ -43,6 +43,15 @@ let a = [1,2,3];
 let b=a;
 b.pop(); to hoga both mein change 
 
+dynamic typing ->js mein static typing nhi hai ynha par hai dynamic typing jiska matlab hai aap data ko chnage karskte ho
+kunki ynha par dynamic typing hai.
+
+static-> static m data change nhi karskte jaise{
+
+int a =12;
+a=true ; ye nhi kar skta in static typing 
+}
+
 
 
  
