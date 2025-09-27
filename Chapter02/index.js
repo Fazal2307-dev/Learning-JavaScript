@@ -46,6 +46,28 @@ b.pop(); to hoga both mein change
 dynamic typing ->js mein static typing nhi hai ynha par hai dynamic typing jiska matlab hai aap data ko chnage karskte ho
 kunki ynha par dynamic typing hai.
 
+let a=12;
+a=true;
+a=[];
+a={}
+mai kuch bhi skta hun because of dynamic value  or yhi js ka drwaback bhi hai.
+Dynamic Typing: Pros & Cons
+✅ Pros
+- Flexibility: Rapid prototyping ke liye perfect hai. Jaldi se kuch try karna ho toh JS rukawat nahi daalta.
+- Less boilerplate: Type declarations ki zarurat nahi hoti, code concise hota hai.
+❌ Cons
+- Runtime errors: Type mismatch ki wajah se bugs aate hain jo compile time par pakde nahi jaate.
+- Maintainability issues: Bade codebase mein samajhna mushkil ho jata hai ki variable kis type ka hai.
+- Tooling limitations: IDEs aur linters ko type inference mein dikkat hoti hai.
+🛡️ Solution: TypeScript
+Agar tumhe static typing chahiye toh TypeScript ek solid option hai. Ye JavaScript ka superset hai jo compile time par type errors detect karta hai:
+let a: number = 12;
+a = true; // ❌ Error: Type 'boolean' is not assignable to type 'number'
+
+
+TypeScript tumhare builder mindset ke liye ek asset ho sakta hai — especially jab tum production-grade tools bana rahe ho. Want help converting one of your JS projects to TypeScript? I can walk you through it step-by-step.
+
+
 static-> static m data change nhi karskte jaise{
 
 int a =12;
