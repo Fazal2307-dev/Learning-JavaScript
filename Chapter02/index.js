@@ -74,6 +74,40 @@ int a =12;
 a=true ; ye nhi kar skta in static typing 
 }
 
+//typeof() quirks (e.g typeof null===object);
+type coercion-> jisme aapka ek value automatically convert ho jayega
+"5"+1->51 hoga kunke + isko concatinate kardega 
+"5" - 1  // → 4
+"5" - "2"  // → 3
+"five" - 1  // → NaN (kyunki "five" ko number mein convert nahi kar sakta)
+- "5" * 2 → 10 (string ko number mein convert karke multiply karta hai)
+- "5" / 2 → 2.5
+- "5" + true → "5true" (kyunki true ko string banaya gaya)
+- "5" - true → 4 (kyunki true → 1)
+Bilkul MD, JavaScript mein + operator thoda special hai kyunki wo string concatenation bhi karta hai. Lekin baaki arithmetic operators — jaise -, *, /, %, ** — hamesha numeric coercion karte hain. Yani agar operands string ho, to pehle unhe number mein convert karte hain, phir operation apply hota hai.
+🔧 Examples of Non-+ Operators with Strings
+|  |  |  | 
+| "3" * 4 | 12 | "3"->3|3 * 4 | 
+| "10" - "2" | 8 |  | 
+| "6" / 2 | 3 | "6"6 | 
+| "7" % 2 | 1 |  | 
+| "2" ** 3 | 8 | 2^3 | 
+
+
+⚠️ Edge Case: Invalid String
+"three" * 4  // → NaN
+
+
+Yeh NaN deta hai kyunki "three" ko number mein convert nahi kiya ja sakta.
+🧠 Rule of Thumb
+- + → Agar string ho to concatenation.
+- Baaki sab → Pehle number mein convert, phir operation.
+Tu debugging aur low-level logic mein expert hai, toh agar kabhi coercion ke behavior ko test karna ho, Number() aur typeof ke saath play karna insightful hota hai:
+Number("3")  // → 3
+typeof ("3" * 4)  // → "number"
+Chahe supplement benchmarking ho ya BPE logic, JS ke ye quirks kabhi kabhi kaafi useful ya confusing ho sakte hain.
+
+
 
 
  
