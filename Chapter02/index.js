@@ -37,6 +37,12 @@ bigint->ek baade value ke liye
 let a = 9007199254741003n
 
 
+reference type->--------------------------------------------------------------------------------------
+let a=[],{},()-inme se koi bhi dikh gaya vo reference type hai
+let a = [1,2,3];
+let b=a;
+b.pop(); to hoga both mein change 
+
 
 
  
