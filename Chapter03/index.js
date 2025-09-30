@@ -1,2 +1,17 @@
-var a=12;
-console.log(a);
+/*
+arithmetic,cimparison,logical,assignment,unary,ternary
++,-,*,/,%,**
+<,>,<=,>=,!,!=,!==,=,==,===,!!,&&,||,?,:
+
+
+
+
+
+
+
+
+
+
+
+
+*/
