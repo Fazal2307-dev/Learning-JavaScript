@@ -34,6 +34,19 @@ logical-> &&,||,!
 // !true dega false aur agar ham !!12 likehnge to vo hoga true 
 
 
+unary->
+ek string jo number m convert ho skti hai uske aage + laga dene se vo number m hoga jaise
++"23"->ye 23 ho jayega
+lekin agar ye pure string like "FAZAL" hai to iske aage +"FAZAL" lagane se ye NAN dega
+
+
+ternary operator->
+?:
+//condition ? true hui ka code : false hui ka code
+12>13 ? console.log("TRue") : console.log("False")-> ans false hoga 
+12 bada nhi hai 13 se to is par jayega: aur phir vo console.log hoha
+
+
 
 
 
