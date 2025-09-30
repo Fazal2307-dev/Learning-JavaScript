@@ -25,6 +25,14 @@ let a=12;
 a+=12;
 means ,a=a+12;
 
+logical-> &&,||,!
+&& both side should be true a>=2 && 13<=a
+|| minimum one side should be true  a>=2 || 13<=a
+!true->false
+!false->true
+!12 //false hoga kunke 12 ek boolean hai too 12 chage hoga 12->true ,
+// !true dega false aur agar ham !!12 likehnge to vo hoga true 
+
 
 
 
