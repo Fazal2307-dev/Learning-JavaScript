@@ -107,6 +107,10 @@ Number("3")  // → 3
 typeof ("3" * 4)  // → "number"
 Chahe supplement benchmarking ho ya BPE logic, JS ke ye quirks kabhi kabhi kaafi useful ya confusing ho sakte hain.
 
+//truthy  vs falsy values 
+
+0,false,null,undefined,"",NaN,documnet.all->falsy value 
+agar jaan na hai ke ye falsy hai ke nhi ye karo (!!0,!!nul ) bass aage me !! ye use karo
 
 
 
