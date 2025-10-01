@@ -173,3 +173,25 @@ const { prompt } = require("readline-sync");
 //         console.log(i);
 //     }
 // }
+
+// for(let i=1;i<=100;i++){
+//       console.log(i);
+//     if(i%7===0){
+//         break;
+//     }
+  
+// }
+/*
+q3
+skip multiple of 3
+write a loop from 1 to 20 that 
+skip number divisible by 3
+print all other
+use continue
+
+*/
+for(let i=1;i<=20;i++){
+    if(i%3===0)
+        continue;
+    console.log(i);
+}
