@@ -38,14 +38,20 @@
 // console.log(getGrade(40));
 
 //rock papper scissor
-function rps(user,comp){
-    if(user === comp) return "Draw";
-    if(user === "rock" && comp==="scissor") return "user";
-    if(user==="scissor" && comp==="papper") return "user";
-    if(user==="papper" && comp==="rock") return "user";
+// function rps(user,comp){
+//     if(user === comp) return "Draw";
+//     if(user === "rock" && comp==="scissor") return "user";
+//     if(user==="scissor" && comp==="papper") return "user";
+//     if(user==="papper" && comp==="rock") return "user";
 
-    return "computer";
+//     return "computer";
+// }
+
+
+// console.log(rps("rock","paper"));
+
+//loop
+let n=10;
+for(let i=1;i<=n;i++){
+    console.log(2*i);
 }
-
-
-console.log(rps("rock","paper"));
