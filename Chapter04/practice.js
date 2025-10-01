@@ -15,11 +15,24 @@
 //     default:
 // }
 
-function getVal(val){
-    if(val<100) return "A";
-    else if(val<75) return "B";
-    else if(val<65) return "C";
-    else return "D";
+// function getVal(val){
+//     if(val<100) return "A";
+//     else if(val<75) return "B";
+//     else if(val<65) return "C";
+//     else return "D";
+
+// }
+// console.log(getVal(76));
+
+function getGrade(score){
+if(score>=90 && score<=100) return "A+";
+else if(score>=80 && score<=89) return "A";
+else if(score>=70 && score<=79) return "B";
+else if(score>=60 && score<=69) return "C";
+else if(score>=33 && score<=59) return "D";
+else if(score>=0 && score<=32) return "E";
+else return "Invalid marks";
+
 
 }
-console.log(getVal(76));
+console.log(getGrade(40));
