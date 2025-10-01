@@ -51,7 +51,14 @@
 // console.log(rps("rock","paper"));
 
 //loop
-let n=10;
-for(let i=1;i<=n;i++){
-    console.log(2*i);
+// let n=10;
+// for(let i=1;i<=n;i++){
+//     console.log(2*i);
+// }
+
+//while()
+let i=1;
+while(i<=32){
+    console.log(i);
+    i++;
 }
