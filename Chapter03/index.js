@@ -66,8 +66,7 @@ let a=[];
 a instanceof Arraay->true;
 a instanceof object->false;
 
-instanceof always work with Reference data type like [],{},function(){}
-
+instanceof always work with Reference data type like [],{},
 
 
 
