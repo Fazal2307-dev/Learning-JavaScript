@@ -102,8 +102,22 @@
 // }
 
 //q3 print even numbers from 1 to 20 using for loop
-for(let i=1;i<=20;i++){
-    if(i%2==0){
+// for(let i=1;i<=20;i++){
+//     if(i%2==0){
+//         console.log(i);
+//     }
+// }
+//q4 print odd number from 1 to 15 using a while loop
+// for(let i=1;i<=15;i++){
+//     if(i%3===0){
+//         console.log(i);
+//     }
+// }
+
+let i=1;
+while(i<=15){
+    if(i%2===1){
         console.log(i);
     }
+    i++;
 }
