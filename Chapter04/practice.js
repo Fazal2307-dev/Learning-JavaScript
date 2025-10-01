@@ -77,8 +77,33 @@
 
 // }
 
-for(let i=1;i<200;i++){
-    if(i===32)
-        continue;
-    console.log(i);
+// for(let i=1;i<200;i++){
+//     if(i===32)
+//         continue;
+//     console.log(i);
+// }
+
+
+// all question
+//q1 print from 1 to 10 using for loop
+// for (let i=1;i<=10;i++){
+//     console.log(i);
+// }
+
+//q2 print number from 10 to 1 using while loop
+
+// for (let i=10;i>=1;i--){
+//     console.log(i);
+// }
+// let i=10;
+// while(i>0){
+//     console.log(i);
+//     i--;
+// }
+
+//q3 print even numbers from 1 to 20 using for loop
+for(let i=1;i<=20;i++){
+    if(i%2==0){
+        console.log(i);
+    }
 }
