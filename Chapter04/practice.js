@@ -156,11 +156,20 @@ const { prompt } = require("readline-sync");
 // }
 
 //q8 ask the user for a number and print whether each number from 1 to that number is even or odd
-let val = prompt("give a number");
-for (let i=1; i<=val;i++){
-    if(i%2===0){
-        console.log(`${i} is even`);
-    }else{
-        console.log(`${i} is odd`);
-    }
-}
+// let val = prompt("give a number");
+// for (let i=1; i<=val;i++){
+//     if(i%2===0){
+//         console.log(`${i} is even`);
+//     }else{
+//         console.log(`${i} is odd`);
+//     }
+// }
+
+//q9 count how many number between 1 to 100 are 
+//divisible by both 3 and 5
+// let count=0;
+// for(let i=1;i<=100;i++){
+//     if(i%3===0 &&i%5===0){
+//         console.log(i);
+//     }
+// }
