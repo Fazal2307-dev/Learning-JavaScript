@@ -23,6 +23,9 @@ swtich(val){
         break;
     default:
 
+repeat karne ko loop kahte hain
+for,while,foreach
+
 
 
 
