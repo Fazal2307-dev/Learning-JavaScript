@@ -2,6 +2,8 @@
 
 // let val = 2;
 
+const { prompt } = require("readline-sync");
+
 // Swtich(2) {
 //     case 1:
 //         console.log("Val 1");
@@ -128,8 +130,37 @@
 // }
 
 //q6  find the sum of number from 1 to 100 using loop
-let sum =0;
-for(let i=1;i<=100;i++){
-sum = sum +i;
+// let sum =0;
+// for(let i=1;i<=100;i++){
+// sum = sum +i;
+// }
+// console.log(sum);
+
+// let i=1;
+// let sum =0;
+// while(i<=100){
+//     sum =sum +i;
+//     i++;
+// }
+// console.log(sum);
+
+
+
+//q7 print all numbers 1 to 50 that are divisible by 3
+
+// for(let i=1;i<=50;i++){
+//     if(i%3===0){
+//         console.log(i);
+//     }
+       
+// }
+
+//q8 ask the user for a number and print whether each number from 1 to that number is even or odd
+let val = prompt("give a number");
+for (let i=1; i<=val;i++){
+    if(i%2===0){
+        console.log(`${i} is even`);
+    }else{
+        console.log(`${i} is odd`);
+    }
 }
-console.log(sum);

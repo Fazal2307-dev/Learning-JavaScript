@@ -55,7 +55,8 @@ break,continue;
 break->whi ruk jayega 
 continue->usko chhod ke aage badh jayeg
 
-
+input lene ke line prompt("give a number") use karte hain in js
+jaise cin>> karte hain c++ m
 
 
 
