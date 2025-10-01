@@ -47,6 +47,29 @@ ternary operator->
 12 bada nhi hai 13 se to is par jayega: aur phir vo console.log hoha
 
 
+typeof  instanceof->
+typeof->
+typeof 12->number
+typeof null->object
+
+usme kuch galti bhi hai
+jaise
+typeof []->object jabke ye arrray hai
+typeof  null->object hai 
+typeof NaN->number ye sare galat quirk hai
+
+
+
+instanceof-> khoon,vansaj hai, usme se hai 
+Exactly — instanceof is like asking, “Does this object belong to this type?”
+let a=[];
+a instanceof Arraay->true;
+a instanceof object->false;
+
+instanceof always work with Reference data type like [],{},function(){}
+
+
+
 
 
 
