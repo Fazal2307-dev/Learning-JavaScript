@@ -43,6 +43,15 @@ while(end){
 change;
 }
 
+//do while()
+
+start;
+do{
+chnage;
+
+
+}while(end)
+
 
 
 
