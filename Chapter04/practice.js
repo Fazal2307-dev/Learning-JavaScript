@@ -182,7 +182,7 @@ const { prompt } = require("readline-sync");
   
 // }
 /*
-q3
+q2
 skip multiple of 3
 write a loop from 1 to 20 that 
 skip number divisible by 3
@@ -190,8 +190,20 @@ print all other
 use continue
 
 */
-for(let i=1;i<=20;i++){
-    if(i%3===0)
-        continue;
-    console.log(i);
-}
+// for(let i=1;i<=20;i++){
+//     if(i%3===0)
+//         continue;
+//     console.log(i);
+// }
+
+// q3 print first 5 odd only
+//from 1 to 100  using count value
+// let count=0;
+// for(let i=1;i<=100;i++){
+//     if(i%2==1){
+//         count++;
+//         console.log(i);
+//     }
+//     if(count===5) break;
+// }
+
