@@ -56,9 +56,15 @@
 //     console.log(2*i);
 // }
 
-//while()
+// //while()
+// let i=1;
+// while(i<=32){
+//     console.log(i);
+//     i++;
+// }
+
 let i=1;
-while(i<=32){
+do{
     console.log(i);
     i++;
-}
+}while(i<=32);
