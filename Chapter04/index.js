@@ -48,13 +48,12 @@ change;
 start;
 do{
 chnage;
-
-
 }while(end)
 
 
-
-
+break,continue;
+break->whi ruk jayega 
+continue->usko chhod ke aage badh jayeg
 
 
 
