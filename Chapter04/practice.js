@@ -63,8 +63,22 @@
 //     i++;
 // }
 
-let i=1;
-do{
+// let i=1;
+// do{
+//     console.log(i);
+//     i++;
+// }while(i<=32);
+
+//break
+// for(let i=1;i<200;i++){
+//     console.log(i);
+// if(i===32)
+//     break;
+
+// }
+
+for(let i=1;i<200;i++){
+    if(i===32)
+        continue;
     console.log(i);
-    i++;
-}while(i<=32);
+}
