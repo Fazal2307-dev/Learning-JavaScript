@@ -114,10 +114,15 @@
 //     }
 // }
 
-let i=1;
-while(i<=15){
-    if(i%2===1){
-        console.log(i);
-    }
-    i++;
+// let i=1;
+// while(i<=15){
+//     if(i%2===1){
+//         console.log(i);
+//     }
+//     i++;
+// }
+
+//q5 print the multiplication table of 5 (5*1=2)
+for(let i=1;i<=10;i++){
+    console.log(`5 * ${i} = ${5*i}`);
 }
