@@ -19,7 +19,13 @@ ye dono trah se function likh skte hain
 let happy = ()=>{
     
     
+}
+
+//parameter vs argument
+    function abcd(v1,v2){       v1,v2 ->parameter
+    console.log(v1+v2)
     }
+    abcd(1,2) --> argument
 
 
 
