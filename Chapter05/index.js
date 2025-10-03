@@ -27,7 +27,15 @@ let happy = ()=>{
     }
     abcd(1,2) --> argument
 
+//
+default,rest,spread parameter
+defalut parameter->
+function add(v1=0,v2=0 ){
+console.log(v1+v2);
 
+}
+add()-> abhi kuch nhi diya hai parameter m to undefined ,undefined  aur undefined + undefined =NAN 
+if you don't want that use default like 0 value for both parameter
 
 
 
