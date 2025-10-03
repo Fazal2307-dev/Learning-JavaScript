@@ -29,7 +29,7 @@ let happy = ()=>{
 
 //
 default,rest,spread parameter
-defalut parameter->
+defalut parameter->-----------
 function add(v1=0,v2=0 ){
 console.log(v1+v2);
 
@@ -38,6 +38,14 @@ add()-> abhi kuch nhi diya hai parameter m to undefined ,undefined  aur undefine
 if you don't want that use default like 0 value for both parameter
 
 
+rest->---------
+function add(...val){
+console.log(val);
+
+}
+add(1,2,8,9,74,56,14,25,46);
+jab argument kai sare hoto hamme utna hi parameter bnana padega isse bachne ke liye hum rest ka use karte hai
+agar... function ke parameter space mein lage to vo rest operator hai aur agar vo array ya object m ho to vo spread hai operator hai
 
 
 
