@@ -136,7 +136,7 @@ abcd()
 
 let value = function abcd(){
 console.log("Dsadd")}
-ye ahm nhi kar skte
+ye ham nhi kar skte ye function expression hai
 
 
 

@@ -56,7 +56,21 @@
 // console.log("FAZAL");
 // })();
 
+// abcd();
+// function abcd(){
+// console.log("Fazal")}
+
+//q1.what is difference b/w function declaration and expression in the terms of hoisiting?
 abcd();
 function abcd(){
-console.log("Fazal")}
+    console.log("fazal");
+}
+ //iska hoisiting hoga 
+ function abcd(){
+    console.log("Fazal");
+
+ }
+ let val = abcd();
+ console.log(val());
+ //iska hoisiting nhi hoga
 
