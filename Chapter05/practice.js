@@ -43,11 +43,20 @@
 // abcd()();
 
 
-function abcd(){
- let a=12;
-return function(){
-console.log(a);
-}}
+// function abcd(){
+//  let a=12;
+// return function(){
+// console.log(a);
+// }}
 
-let hota = abcd();
-hota();
+// let hota = abcd();
+// hota();
+
+// (function(){
+// console.log("FAZAL");
+// })();
+
+abcd();
+function abcd(){
+console.log("Fazal")}
+
