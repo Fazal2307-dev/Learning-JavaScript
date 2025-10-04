@@ -130,6 +130,13 @@ abcd();
 function abcd(){
 console.log("Fazal")}
 
+ham ye nhi kar skte 
+like 
+abcd()
+
+let value = function abcd(){
+console.log("Dsadd")}
+ye ahm nhi kar skte
 
 
 
