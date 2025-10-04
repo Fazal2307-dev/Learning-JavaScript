@@ -100,6 +100,21 @@ return function(){
 console.log(");
 }}
 
+lexical scoping->-----------------------------------------------------------------------
+
+function abcd(){
+let a=112; a pure code m access haai 
+    funcntion efg(){
+    let b=13;
+     function hij(){
+     let c = 123;
+     
+      }
+    }
+}
+    Ek variable ki accessibility us jagah se decide hoti hai jahan wo likha gaya hai — na ki jahan se wo call hua hai.
+    
+
 
 
 
