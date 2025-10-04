@@ -23,8 +23,15 @@
 // }
 // add(12,32.5648);
 
-function abcd(){
-return 12;
+// function abcd(){
+// return 12;
+// }
+// let value= abcd();
+// console.log(value);
+
+function abcd(val){
+val();
 }
-let value= abcd();
-console.log(value);
+abcd(function(){
+console.log("Hey")
+})
