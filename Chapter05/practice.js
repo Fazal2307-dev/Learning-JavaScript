@@ -75,14 +75,19 @@
 //  //iska hoisiting nhi hoga
 
 //q use rest operator to accept any number of scores and return the total 
- function getScore(...score){
-    let total =0;
-    score.forEach(function (val){
-            total = total + val;
-    });
-    return total;
+//  function getScore(...score){
+//     let total =0;
+//     score.forEach(function (val){
+//             total = total + val;
+//     });
+//     return total;
 
- }
- console.log(getScore(10,12,15,78,98));
+//  }
+//  console.log(getScore(10,12,15,78,98));
 
+//First project
+function bmi(weight,height){
+return weight/(height*height);
+}
+console.log(bmi(90,1.56).toFixed(2));
 
