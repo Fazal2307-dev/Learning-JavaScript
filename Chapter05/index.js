@@ -113,8 +113,22 @@ let a=112; a pure code m access haai
     }
 }
     Ek variable ki accessibility us jagah se decide hoti hai jahan wo likha gaya hai — na ki jahan se wo call hua hai.
-    
 
+IIFE (Immediatliy invoked function expression)->---------------------------------------------------------------------
+(function(){
+console.log("FAZAL");
+})();
+
+Hoisitng ->--------------------------------------------------
+banne se pahle aap usko use kar pa rahe ho usse hoisitng kaht hain 
+like  
+console.log(a);
+let a=12;
+ussi trah function mein bhi use hota hai jaise 
+
+abcd();
+function abcd(){
+console.log("Fazal")}
 
 
 
