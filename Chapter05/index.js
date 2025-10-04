@@ -65,7 +65,19 @@ abcd(function(){
 console.log("Hey";)
 })
 
+Higher Order function->----------------------------------------------------------------------------------------------------
+ hof wo function hota hai jo ki return kare function ya fir accept kare function apne parameter mein
 
+ function abcd(val){
+ 
+ 
+ }
+ abcd(function())
+ ya phir
+ function abcd(){
+ return function(){
+ }}
+abcd()();
 
 
 
