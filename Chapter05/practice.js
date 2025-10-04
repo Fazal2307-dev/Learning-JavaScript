@@ -61,16 +61,28 @@
 // console.log("Fazal")}
 
 //q1.what is difference b/w function declaration and expression in the terms of hoisiting?
-abcd();
-function abcd(){
-    console.log("fazal");
-}
- //iska hoisiting hoga 
- function abcd(){
-    console.log("Fazal");
+// abcd();
+// function abcd(){
+//     console.log("fazal");
+// }
+//  //iska hoisiting hoga 
+//  function abcd(){
+//     console.log("Fazal");
+
+//  }
+//  let val = abcd();
+//  console.log(val());
+//  //iska hoisiting nhi hoga
+
+//q use rest operator to accept any number of scores and return the total 
+ function getScore(...score){
+    let total =0;
+    score.forEach(function (val){
+            total = total + val;
+    });
+    return total;
 
  }
- let val = abcd();
- console.log(val());
- //iska hoisiting nhi hoga
+ console.log(getScore(10,12,15,78,98));
+
 
