@@ -29,9 +29,15 @@
 // let value= abcd();
 // console.log(value);
 
-function abcd(val){
-val();
-}
-abcd(function(){
-console.log("Hey")
-})
+// function abcd(val){
+// val();
+// }
+// abcd(function(){
+// console.log("Hey")
+// })
+
+function abcd(){
+ return function(){
+    console.log("Hey fazal")
+ }}
+abcd()();
