@@ -92,6 +92,13 @@ function change(){
 a++;
 }
 
+clouser->-------------------------------------------------------------------------
+aisa function jo return kare ek  function aur use kar varible apne parents ka  like this
+function abcd(){
+ let a=12;
+return function(){
+console.log(");
+}}
 
 
 
