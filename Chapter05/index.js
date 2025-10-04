@@ -56,6 +56,16 @@ return 12;
 abcd();
 
 
+first class function->------------------------------------
+function ko value ki trah use kar skte hain jaise
+function abcd(val){
+val();
+}
+abcd(function(){
+console.log("Hey";)
+})
+
+
 
 
 
