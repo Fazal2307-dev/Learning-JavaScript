@@ -45,8 +45,15 @@ console.log(val);
 }
 add(1,2,8,9,74,56,14,25,46);
 jab argument kai sare hoto hamme utna hi parameter bnana padega isse bachne ke liye hum rest ka use karte hai
-agar... function ke parameter space mein lage to vo rest operator hai aur agar vo array ya object m ho to vo spread hai operator hai
+agar... function ke parameter space mein lage to vo rest operator hai aur agar vo array ya object m ho to vo spread operator hai
 
+
+return ->--------------------
+return matlab janha se aaya hai wanhi jaao
+function abcd(){
+return 12;
+}
+abcd();
 
 
 
