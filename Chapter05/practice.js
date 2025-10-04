@@ -36,8 +36,18 @@
 // console.log("Hey")
 // })
 
+// function abcd(){
+//  return function(){
+//     console.log("Hey fazal")
+//  }}
+// abcd()();
+
+
 function abcd(){
- return function(){
-    console.log("Hey fazal")
- }}
-abcd()();
+ let a=12;
+return function(){
+console.log(a);
+}}
+
+let hota = abcd();
+hota();
