@@ -79,6 +79,19 @@ Higher Order function->---------------------------------------------------------
  }}
 abcd()();
 
+pure vs impure->----------------------------------------------------
+aisa function jo bahar ki vaalue ko na badle vo pure function
+let a=12;
+
+function abcd(){
+console.log("Fdsfnds.bfadsk");
+}
+
+aisa function jo bahar ki vaalue ko badal de vo hai impure function
+function change(){
+a++;
+}
+
 
 
 
