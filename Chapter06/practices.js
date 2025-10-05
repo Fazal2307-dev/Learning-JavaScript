@@ -11,13 +11,20 @@
 // console.log(twentyDiscount(1500));
 
 //P3
-function counter(){
-    let count =0;
-    return function(){
-        count++;
-        return count;
-    }
+// function counter(){
+//     let count =0;
+//     return function(){
+//         count++;
+//         return count;
+//     }
+
+// }
+// let c = counter()
+// console.log(c())
+
+//p4 use pure function to value
+function add(val){
+    return val+2;
 
 }
-let c = counter()
-console.log(c())
+console.log(add(12))
