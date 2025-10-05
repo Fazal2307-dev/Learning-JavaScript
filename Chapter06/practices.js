@@ -42,18 +42,20 @@
 //p6 incrementation and decrementation in one function
 function counter(){
     let count =0;
-     return {
-        function(){
+    return {
+        increment:function(){
         count++;
         return count;
      },
-     decrement: function(){
+       decrement: function(){
          count--;
          return count;
      }
     }
 }
-let increment=counter();
-console.log(increment())
-let decrementation = counter();
-console.log(decrementation());
+let c = counter();
+console.log(c.increment());
+console.log(c.increment());
+console.log(c.increment());
+console.log(c.increment());
+console.log(c.decrement());
