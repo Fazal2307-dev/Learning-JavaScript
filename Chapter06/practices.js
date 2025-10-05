@@ -40,19 +40,22 @@
 // )();
 
 //p6 incrementation and decrementation in one function
-function counter(){
-    let count =0;
-    return {
-        increment:function(){
-        count++;
-        return count;
-     },
-       decrement: function(){
-         count--;
-         return count;
-     }
-    }
-}
-let c = counter();
-console.log(c.increment());
-console.log(c.decrement());
+// function counter(){
+//     let count =0;
+//     return {
+//         increment:function(){
+//         count++;
+//         return count;
+//      },
+//        decrement: function(){
+//          count--;
+//          return count;
+//      }
+//     }
+// }
+// let c = counter();
+// console.log(c.increment());
+// console.log(c.decrement());
+//Array->-------------------------------------------------------------------------------------------------------------------------
+let arr=[10.54,78,98,45,65,47,];
+console.log(arr[3]);//45
