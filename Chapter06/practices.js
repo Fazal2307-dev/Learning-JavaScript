@@ -30,11 +30,30 @@
 // console.log(add(12))
 
 //p5 use IIFE to isolate variable;
-(
-    function(){
-        const password = "Fazal@2307";
-        console.log(password);
-        let password1 = "fazal2123";
+// (
+//     function(){
+//         const password = "Fazal@2307";
+//         console.log(password);
+//         let password1 = "fazal2123";
         
+//     }
+// )();
+
+//p6 incrementation and decrementation in one function
+function counter(){
+    let count =0;
+     return {
+        function(){
+        count++;
+        return count;
+     },
+     decrement: function(){
+         count--;
+         return count;
+     }
     }
-)();
+}
+let increment=counter();
+console.log(increment())
+let decrementation = counter();
+console.log(decrementation());
