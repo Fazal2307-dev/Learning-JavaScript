@@ -23,8 +23,18 @@
 // console.log(c())
 
 //p4 use pure function to value
-function add(val){
-    return val+2;
+// function add(val){
+//     return val+2;
 
-}
-console.log(add(12))
+// }
+// console.log(add(12))
+
+//p5 use IIFE to isolate variable;
+(
+    function(){
+        const password = "Fazal@2307";
+        console.log(password);
+        let password1 = "fazal2123";
+        
+    }
+)();
