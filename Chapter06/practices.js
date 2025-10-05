@@ -55,7 +55,4 @@ function counter(){
 }
 let c = counter();
 console.log(c.increment());
-console.log(c.increment());
-console.log(c.increment());
-console.log(c.increment());
 console.log(c.decrement());
