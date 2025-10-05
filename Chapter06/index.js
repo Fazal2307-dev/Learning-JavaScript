@@ -19,6 +19,12 @@ arr.splice(2,1)//[2,12,78,45,65,98] 2 ka mtalb 2nd index means 78 se 1 ka matlab
 let newarr=arr.slice(0,3) ye ek new array m hota hai aapke parent aarray ko nhi chnage karta hai aur 0,3 jo hai oth index se lekar 2nd index tak
 means agar tumne arr.slice(0,4) to vo 0 se 3rd tak ka value lega 
 arr.reverse()//ye aapke pure array reverse kardega parent array ko 
+sorting array in js
+let arr =[1,2,5,8,3,9];
+let sr = arr.sort(function(a,b){
+return a-b});//[1,2,3,5,8,9]
+return b-a;//[9,8,5,3,2,1];
+
 
 
 
