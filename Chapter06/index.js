@@ -88,6 +88,12 @@ console.log(eve);//false
 everhy some ka opposite hai matlab aagar ek bhi koi ek bhi  value satisfy nhi karga to fals ho jayega 
 jaise ynha val >12  hai aur 12 jo ke nhoi hai isliye pura arr false ho jayega
 
+destructing 
+let arr = [1,2,3,5,6,8];
+let [a,b,,d] =arr;
+a=1,b=2 aur , vo chhod dega 3rd value ko aur d=5 hoga ye islye karte hain arr ke do index value nikalna hai to aap har bar
+arr[0],arr[1] ye nhi karn hai isliye destructing karte hain
+
 
 
 
