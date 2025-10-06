@@ -83,8 +83,18 @@
 // if(val>4) return true;})
 // console.log(newarr);
 
-let arr = [1,4,8,9,7,5];
-let newarr = arr.reduce(function(accumulator,val){
-return  accumulator + val;
-},0)
+// let arr = [1,4,8,9,7,5];
+// let newarr = arr.reduce(function(accumulator,val){
+// return  accumulator + val;
+// },0)
+// console.log(newarr);
+
+let arr =[
+{id:1, key:1},
+{id:2,key:2},
+{id:3,key:1}
+]
+let newarr = arr.find(function(val){
+return val.key ===1;
+})
 console.log(newarr);
