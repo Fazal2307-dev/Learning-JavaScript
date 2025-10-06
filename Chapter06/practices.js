@@ -67,7 +67,13 @@
 // return b-a});
 // console.log(sr);
 
-let arr = [1,4,8,7,56];
-arr.forEach(function(val){
-console.log(val+5);
+// let arr = [1,4,8,7,56];
+// arr.forEach(function(val){
+// console.log(val+5);
+// })
+
+let arr = [12,78,56,48,23,13];
+let newArr = arr.map(function(val){
+ if(val>70) return val ;
 })
+console.log(newArr);
