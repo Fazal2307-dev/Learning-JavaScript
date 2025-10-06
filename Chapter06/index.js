@@ -49,8 +49,14 @@ lekin map aisa nhi hoga hai maan lo tumhare pass parent arr m 1 se lekar 5 value
 new arr m sirf 3 se bada val chahiye to arr m sirf 4,5 hoga aur wanhi map 1,2,3 ki jagah undefined aata islye ham log filter usse karte hai
 
 
-
-
+reduce()->-------------------
+reduce array ke sare vaalue ko jod deta hai jaise 
+let arr = [1,4,8,9,7,5];
+let newarr = arr.reduce(function(accumulator,val){
+return  accumulator + val;
+},0)
+ynha par accumulator vo kiya karta hai yaad rakhta hai aapke previous value ko accumulator value 0 jab add hoga to value badte chala 
+jayega like hum log koi varible bnante the like sum=0 ussi type 
 
 
 
