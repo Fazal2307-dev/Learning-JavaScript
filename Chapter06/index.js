@@ -94,6 +94,15 @@ let [a,b,,d] =arr;
 a=1,b=2 aur , vo chhod dega 3rd value ko aur d=5 hoga ye islye karte hain arr ke do index value nikalna hai to aap har bar
 arr[0],arr[1] ye nhi karn hai isliye destructing karte hain
 
+spread()->----------------
+let arr=[10,45,78,65];
+let newArr = [...arr]
+console.log(newArr);
+console.log(newarr.pop())
+console.log(newArr);
+spread ek newarr m copy kar leta hai apne parent arr ka vaalue to agar hum childern arr ko change karte hain to parent m nhi chnag hota hai
+
+
 
 
 
