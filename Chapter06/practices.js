@@ -89,12 +89,17 @@
 // },0)
 // console.log(newarr);
 
-let arr =[
-{id:1, key:1},
-{id:2,key:2},
-{id:3,key:1}
-]
-let newarr = arr.find(function(val){
-return val.key ===1;
-})
+// let arr =[
+// {id:1, key:1},
+// {id:2,key:2},
+// {id:3,key:1}
+// ]
+// let newarr = arr.find(function(val){
+// return val.key ===1;
+// })
+// console.log(newarr);
+
+let arr= [12,45,95,98,98];
+let newarr= arr.some(function(val){
+return val>90})
 console.log(newarr);
