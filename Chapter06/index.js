@@ -71,8 +71,15 @@ return val.key ===1;
 })
 console.log(newarr);
 ynha dekh skte hain ke do id ke similar value hai but vo first id ka hi val dega
-
-
+some()->-----------------------------------------------------------------
+some kiya karta hai ke true ya false value deta hai apne parent ke arr ko check karke 
+jaise maan tumne arr bnaya usme ek value hai jo tumhare condition ko match kar raha hai to vo true dega
+let arr= [12,45,65,78,98];
+let newarr= arr.some(function(val){
+return val>90})
+console.log(newarr);
+to haan true kunke arr m 90 se bada value hai
+aur agar do value jo condition se bada hai to bhi true na ke 2 true hoga
 
 
 
