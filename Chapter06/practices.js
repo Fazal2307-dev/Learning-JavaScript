@@ -104,7 +104,12 @@
 // return val>90})
 // console.log(newarr);
 
-let arr = [12,45,78,23,56];
-let eve = arr.every(function(val){
-return val>12});
-console.log(eve);
+// let arr = [12,45,78,23,56];
+// let eve = arr.every(function(val){
+// return val>12});
+// console.log(eve);
+let arr = [1,2,3,5,6,8];
+let [a,b,,d] =arr;
+console.log(a);
+console.log(b);
+console.log(c)
