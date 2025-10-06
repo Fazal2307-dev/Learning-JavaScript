@@ -24,6 +24,11 @@ let arr =[1,2,5,8,3,9];
 let sr = arr.sort(function(a,b){
 return a-b});//[1,2,3,5,8,9]
 return b-a;//[9,8,5,3,2,1];
+for each->-------------------------------
+let arr = [1,4,8,7,56];
+arr.forEach(function(val){
+console.log(val+5);
+})
 
 
 
