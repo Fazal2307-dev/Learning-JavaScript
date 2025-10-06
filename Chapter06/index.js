@@ -28,6 +28,13 @@ for each->-------------------------------
 let arr = [1,4,8,7,56];
 arr.forEach(function(val){
 console.log(val+5);
+});
+map->------------------------------------
+let arr = [12,78,56,48,23,13];
+//map sirf tab use karte hain jab aapko naya array bnana hai pichle wala arraay ka data le kar
+map dikhte hi dimmag mein ek blank array  bna liya karo
+let newArr = arr.map(function(val){
+return 12;
 })
 
 
