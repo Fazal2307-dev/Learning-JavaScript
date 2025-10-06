@@ -80,6 +80,14 @@ return val>90})
 console.log(newarr);
 to haan true kunke arr m 90 se bada value hai
 aur agar do value jo condition se bada hai to bhi true na ke 2 true hoga
+every()->-----------------------------------------------------------
+let arr = [12,45,78,23,56];
+let eve = arr.every(function(val){
+return val>12});
+console.log(eve);//false
+everhy some ka opposite hai matlab aagar ek bhi koi ek bhi  value satisfy nhi karga to fals ho jayega 
+jaise ynha val >12  hai aur 12 jo ke nhoi hai isliye pura arr false ho jayega
+
 
 
 
