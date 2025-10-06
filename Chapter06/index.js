@@ -37,6 +37,18 @@ let newArr = arr.map(function(val){
 return 12;
 })
 
+// jab bhi aapko koi aisa case dikh jaaye ek array se new array banega and wo naya array kuch values ko rakhega tab map lagega
+filter()->-------------------------------------------------
+let arr = [1,2,3,4,5,6,7,8,9];
+let newarr = arr.filter(function(val){
+if(val>4) return true;})
+console.log(newarr);
+filter aur map bhi dono same purane arra se new array   bnaega lkeing differenece ye ke 
+map ke parent array jitna value ka hoga utna bnega chahe value undefined hi kun na ho
+lekin map aisa nhi hoga hai maan lo tumhare pass parent arr m 1 se lekar 5 value aur tumne condition laga di ke mujhe 
+new arr m sirf 3 se bada val chahiye to arr m sirf 4,5 hoga aur wanhi map 1,2,3 ki jagah undefined aata islye ham log filter usse karte hai
+
+
 
 
 
