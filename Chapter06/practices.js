@@ -62,7 +62,12 @@
 // let arr =[12,45,1,23,78];
 // //  arr[3]= 35;
 // //  console.log(arr);[12,45,1,35,78]
-let arr =[1,2,5,8,3,9];
-let sr = arr.sort(function(a,b){
-return b-a});
-console.log(sr);
+// let arr =[1,2,5,8,3,9];
+// let sr = arr.sort(function(a,b){
+// return b-a});
+// console.log(sr);
+
+let arr = [1,4,8,7,56];
+arr.forEach(function(val){
+console.log(val+5);
+})
