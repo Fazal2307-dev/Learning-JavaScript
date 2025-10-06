@@ -108,8 +108,14 @@
 // let eve = arr.every(function(val){
 // return val>12});
 // console.log(eve);
-let arr = [1,2,3,5,6,8];
-let [a,b,,d] =arr;
-console.log(a);
-console.log(b);
-console.log(c)
+// let arr = [1,2,3,5,6,8];
+// let [a,b,,d] =arr;
+// console.log(a);
+// console.log(b);
+// console.log(c)
+
+let arr=[10,45,78,65];
+let newArr = [...arr]
+console.log(newArr);
+console.log(newArr.pop())
+console.log(newArr);
