@@ -72,8 +72,13 @@
 // console.log(val+5);
 // })
 
-let arr = [12,78,56,48,23,13];
-let newArr = arr.map(function(val){
- if(val>70) return val ;
-})
-console.log(newArr);
+// let arr = [12,78,56,48,23,13];
+// let newArr = arr.map(function(val){
+//  if(val>70) return val ;
+// })
+// console.log(newArr);
+
+let arr = [1,2,3,4,5,6,7,8,9];
+let newarr = arr.filter(function(val){
+if(val>4) return true;})
+console.log(newarr);
