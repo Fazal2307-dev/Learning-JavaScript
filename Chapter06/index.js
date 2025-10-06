@@ -58,9 +58,19 @@ return  accumulator + val;
 ynha par accumulator vo kiya karta hai yaad rakhta hai aapke previous value ko accumulator value 0 jab add hoga to value badte chala 
 jayega like hum log koi varible bnante the like sum=0 ussi type 
 
+find()->--------------------------------------
+find value ko search karta aur agar arr m do similar value hain to  first value ko ladeag
 
-
-
+let arr =[
+{id:1, key:1},
+{id:2,key:2},
+{id:3,key:1}
+]
+let newarr = arr.find(function(val){
+return val.key ===1;
+})
+console.log(newarr);
+ynha dekh skte hain ke do id ke similar value hai but vo first id ka hi val dega
 
 
 
