@@ -78,7 +78,13 @@
 // })
 // console.log(newArr);
 
-let arr = [1,2,3,4,5,6,7,8,9];
-let newarr = arr.filter(function(val){
-if(val>4) return true;})
+// let arr = [1,2,3,4,5,6,7,8,9];
+// let newarr = arr.filter(function(val){
+// if(val>4) return true;})
+// console.log(newarr);
+
+let arr = [1,4,8,9,7,5];
+let newarr = arr.reduce(function(accumulator,val){
+return  accumulator + val;
+},0)
 console.log(newarr);
