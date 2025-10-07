@@ -85,7 +85,7 @@ let arr = [12,45,78,23,56];
 let eve = arr.every(function(val){
 return val>12});
 console.log(eve);//false
-everhy some ka opposite hai matlab aagar ek bhi koi ek bhi  value satisfy nhi karga to fals ho jayega 
+every some ka opposite hai matlab aagar ek bhi koi ek bhi  value satisfy nhi karga to fals ho jayega 
 jaise ynha val >12  hai aur 12 jo ke nhoi hai isliye pura arr false ho jayega
 
 destructing 

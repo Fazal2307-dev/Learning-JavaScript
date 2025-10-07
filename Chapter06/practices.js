@@ -140,9 +140,16 @@
 //     return val<35;
 // })
 // console.log(newarr);
+
 //4.use every() to check if all number are even
-let arr = [2,4,6,9,10];
-let newarr = arr.every(function(val){
-    return val % 2===0;
-})
-console.log(newarr);
+// let arr = [2,4,6,9,10];
+// let newarr = arr.every(function(val){
+//     return val % 2===0;
+// })
+// console.log(newarr);
+
+//5.merge two array using spread operator
+let arr1=[12,21.3,98,23];
+let arr2= [4,56,78,65];
+let arr3 =  [...arr1,...arr2];
+console.log(arr3);
