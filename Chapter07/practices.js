@@ -35,17 +35,27 @@
 // console.log(Object.entries(obj));
 
 
+// let obj = {
+// name:"Fazal",
+// age:23,
+// gmail:"mdfazalbarh@gmial.com",
+// Address:{
+//     city:"Patna",
+// }
+
+// };
+// let obj2 = JSON.parse(JSON.stringify(obj))
+// console.log(obj);
+// console.log(obj2);
+// obj2.Address.city="delhi"
+// console.log(obj2)
+
 let obj = {
 name:"Fazal",
 age:23,
 gmail:"mdfazalbarh@gmial.com",
-Address:{
-    city:"Patna",
-}
-
+Addressess:{
+city:"Patna"
+},
 };
-let obj2 = JSON.parse(JSON.stringify(obj))
-console.log(obj);
-console.log(obj2);
-obj2.Address.city="delhi"
-console.log(obj2)
+console.log(obj?.Address?.city);

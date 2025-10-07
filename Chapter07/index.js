@@ -99,6 +99,20 @@ to answer same jaise hai waise hi hoga lekin agar main copy wale object address 
  JSON.stringify->copy bna kar usko string m chnage kar deta hai
  JSON.parse-> bane hue copied string ko phir se normal value m chnage kar deta hai
 
+ optional chaining->-----------------------------------------------------------------------------------------
+let obj = {
+name:"Fazal",
+age:23,
+gmail:"mdfazalbarh@gmial.com"
+Address:{
+city:"Patna"
+},
+};
+obj?.Address?.city
+ye ? isliye likhte hain ki maan lo address ka naam chnage  ho gaya to agar acceass karenge to error isse accha tum undefined do
+islye hamlog ye use karte hain
+
+
 
 
 
