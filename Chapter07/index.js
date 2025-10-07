@@ -112,6 +112,20 @@ obj?.Address?.city
 ye ? isliye likhte hain ki maan lo address ka naam chnage  ho gaya to agar acceass karenge to error isse accha tum undefined do
 islye hamlog ye use karte hain
 
+computed properties->---------------------------------
+
+let role = "admin";
+let obj = {
+name:"Fazal",
+age:23,
+gmail:"mdfazalbarh@gmial.com"
+Address:{
+city:"Patna",
+},
+[role]:"Fazal";
+};
+
+
 
 
 

@@ -50,12 +50,25 @@
 // obj2.Address.city="delhi"
 // console.log(obj2)
 
+// let obj = {
+// name:"Fazal",
+// age:23,
+// gmail:"mdfazalbarh@gmial.com",
+// Addressess:{
+// city:"Patna"
+// },
+// };
+// console.log(obj?.Address?.city);
+
+let role = "admin";
 let obj = {
 name:"Fazal",
 age:23,
 gmail:"mdfazalbarh@gmial.com",
-Addressess:{
-city:"Patna"
+Address:{
+city:"Patna",
 },
+[role]:"Fazal",
 };
-console.log(obj?.Address?.city);
+
+console.log(obj);
