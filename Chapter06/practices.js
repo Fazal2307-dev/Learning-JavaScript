@@ -155,6 +155,10 @@
 // console.log(arr3);
 
 //6.add "india" to start of the array using spread ;
-let contries = ["USA","England"];
-let newarr = contries=["INDIA",...contries];
-console.log(newarr);
+// let contries = ["USA","England"];
+// let newarr = contries=["INDIA",...contries];
+// console.log(newarr);
+//7. clone this arrry propeerly(not reference);
+// let arr=[12,45,89,65];
+// let newarr = [...arr];
+// console.log(newarr);
