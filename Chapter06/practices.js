@@ -114,8 +114,15 @@
 // console.log(b);
 // console.log(c)
 
-let arr=[10,45,78,65];
-let newArr = [...arr]
-console.log(newArr);
-console.log(newArr.pop())
-console.log(newArr);
+// let arr=[10,45,78,65];
+// let newArr = [...arr]
+// console.log(newArr);
+// console.log(newArr.pop())
+// console.log(newArr);
+//practice question->-------------------------------
+//1.use .reduce() to find sum of aarray
+let arr = [10,12,45,89];
+let sum = arr.reduce(function(accumulator,val){
+    return accumulator+ val;
+},0)
+console.log(sum);
