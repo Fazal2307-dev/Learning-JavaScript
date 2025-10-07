@@ -121,8 +121,15 @@
 // console.log(newArr);
 //practice question->-------------------------------
 //1.use .reduce() to find sum of aarray
-let arr = [10,12,45,89];
-let sum = arr.reduce(function(accumulator,val){
-    return accumulator+ val;
-},0)
-console.log(sum);
+// let arr = [10,12,45,89];
+// let sum = arr.reduce(function(accumulator,val){
+//     return accumulator+ val;
+// },0)
+// console.log(sum);
+
+//2.use find() to get first number less than 10;
+let arr = [10,3,45,1,78,];
+let newarr = arr.find(function(val){
+    return  val<10;
+})
+console.log(newarr);
