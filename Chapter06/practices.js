@@ -128,8 +128,15 @@
 // console.log(sum);
 
 //2.use find() to get first number less than 10;
-let arr = [10,3,45,1,78,];
-let newarr = arr.find(function(val){
-    return  val<10;
+// let arr = [10,3,45,1,78,];
+// let newarr = arr.find(function(val){
+//     return  val<10;
+// })
+// console.log(newarr);
+
+//3.use some() to check if there is student score less than 35;
+let arr = [10,78,98,23,56];
+let newarr = arr.some(function(val){
+    return val<35;
 })
 console.log(newarr);
