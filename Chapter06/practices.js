@@ -149,7 +149,12 @@
 // console.log(newarr);
 
 //5.merge two array using spread operator
-let arr1=[12,21.3,98,23];
-let arr2= [4,56,78,65];
-let arr3 =  [...arr1,...arr2];
-console.log(arr3);
+// let arr1=[12,21.3,98,23];
+// let arr2= [4,56,78,65];
+// let arr3 =  [...arr1,...arr2];
+// console.log(arr3);
+
+//6.add "india" to start of the array using spread ;
+let contries = ["USA","England"];
+let newarr = contries=["INDIA",...contries];
+console.log(newarr);
