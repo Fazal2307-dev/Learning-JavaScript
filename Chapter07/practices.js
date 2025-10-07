@@ -106,3 +106,37 @@
 // }
 // let {"First-name":firstName}= obj;
 // console.log(firstName);
+
+//q5.use for in  to log all keys in this object 
+// const users={
+//     title:"JS",
+//     duration:4,
+// }
+// for(let key in users)
+//     console.log(key);
+
+//q6.use object.entries() to print all the key-value pairs as:
+// const course ={
+//     title:"JS",
+//     duration:4,
+// };
+// Object.entries(course).forEach(function(val){
+//     console.log(val[0] + ": " + val[1] );
+// });
+
+//q7.what's problem in this
+// const obj1 = {
+//     info:{
+//         score:80,
+//     }
+// }
+// const clone = JSON.parse(JSON.stringify(obj1));
+// console.log(obj1);
+// console.log(clone);
+// clone.info.score=100;
+// console.log(clone);
+
+// let obj = {
+//     name:"fazal"
+// }
+// Object

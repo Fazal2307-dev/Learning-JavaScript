@@ -56,6 +56,7 @@ let {lang,lat}=user.address.
 Object.keys(obj)
 ye object ka key dega in array
 ['name','age','gmail'] is trah  vo answer dega
+
 Object.entries(obj)
 ye show karega arraay of array
 like this 
