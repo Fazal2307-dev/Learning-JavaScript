@@ -60,15 +60,49 @@
 // };
 // console.log(obj?.Address?.city);
 
-let role = "admin";
-let obj = {
-name:"Fazal",
-age:23,
-gmail:"mdfazalbarh@gmial.com",
-Address:{
-city:"Patna",
-},
-[role]:"Fazal",
-};
+// let role = "admin";
+// let obj = {
+// name:"Fazal",
+// age:23,
+// gmail:"mdfazalbarh@gmial.com",
+// Address:{
+// city:"Patna",
+// },
+// [role]:"Fazal",
+// };
 
-console.log(obj);
+// console.log(obj);
+
+//practices question->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>----->-----------------..->----------------
+//q1.create an object for student with name,age,isEnrolled
+// let student = {
+// name:"Fazal",
+// age:24,
+// isEnrolled:true,
+// };
+// console.log(student);
+
+//q2.can  key be number 
+// const obj={
+//     name:"Fazal",
+//     true:"yes",
+//     42:"age",
+// };
+// console.log(obj);
+
+//q3given a dynamic key let key = "age",how will you access user[key];
+// let key = "age";
+// let obj={
+//     age:26,
+//     age:24,
+//     age:25,
+// };
+// console.log(obj[key])
+
+//q4.destructure the key "First-name" as a variable called firstname
+
+// let obj={
+//     "First-name":"Fazal"
+// }
+// let {"First-name":firstName}= obj;
+// console.log(firstName);
