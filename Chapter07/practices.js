@@ -24,11 +24,21 @@
 // let {lang,lat}=user.Address.location
 // console.log(lang);
 
- let obj ={
- name:"FAZAL",
- age:23,
- gmail:"mdfazalbarh@gmail.com"
- }
-//  for(let key in obj){
-//  console.log(key,":",obj[key])}
-console.log(Object.keys(obj));
+//  let obj ={
+//  name:"FAZAL",
+//  age:23,
+//  gmail:"mdfazalbarh@gmail.com"
+//  }
+// //  for(let key in obj){
+// //  console.log(key,":",obj[key])}
+// console.log(Object.keys(obj));
+// console.log(Object.entries(obj));
+
+
+let obj = {
+name:"Fazal",
+age:23,
+gmail:"mdfazalbarh@gmial.com"
+};
+let obj2={...obj}
+console.log(obj2);

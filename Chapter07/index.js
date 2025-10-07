@@ -62,6 +62,15 @@ like this
 [Array(2),Array(2),Array(2)]
 ye isliye  show kar raha hai kunke har array m do value hai key and value name ,and "fazal" ys do hai
 
+using spread operator for copy
+let obj = {
+name:"Fazal",
+age:23,
+gmail:"mdfazalbarh@gmial.com"
+};
+let obj2={...obj}
+console.log(obj2);
+
 
 
 
