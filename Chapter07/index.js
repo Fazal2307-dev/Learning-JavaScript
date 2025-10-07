@@ -41,8 +41,26 @@ lang:12.87,
 
 console.log(user.Address.location.lang)
 //destructure
-let {lang,lat}=user.address.location
+let {lang,lat}=user.address.
 
+
+// for in
+
+ let obj ={
+ name:"FAZAL",
+ age:23,
+ gmail:"mdfazalbarh@gmail.com"
+ }
+ for(let key in obj){
+ console.log(key)}
+Object.keys(obj)
+ye object ka key dega in array
+['name','age','gmail'] is trah  vo answer dega
+Object.entries(obj)
+ye show karega arraay of array
+like this 
+[Array(2),Array(2),Array(2)]
+ye isliye  show kar raha hai kunke har array m do value hai key and value name ,and "fazal" ys do hai
 
 
 

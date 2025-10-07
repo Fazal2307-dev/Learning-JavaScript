@@ -8,18 +8,27 @@
 // console.log(obj.name);
 // console.log(obj['age']);
 
-const user = {
-name:"FAZAL",
-Address:{
-city:"Patna",
-Pincode:803213,
-location:{
-lat:22.5,
-lang:12.87,
-     },
-  },
-};
+// const user = {
+// name:"FAZAL",
+// Address:{
+// city:"Patna",
+// Pincode:803213,
+// location:{
+// lat:22.5,
+// lang:12.87,
+//      },
+//   },
+// };
 
-// console.log(user.Address.location.lang)
-let {lang,lat}=user.Address.location
-console.log(lang);
+// // console.log(user.Address.location.lang)
+// let {lang,lat}=user.Address.location
+// console.log(lang);
+
+ let obj ={
+ name:"FAZAL",
+ age:23,
+ gmail:"mdfazalbarh@gmail.com"
+ }
+//  for(let key in obj){
+//  console.log(key,":",obj[key])}
+console.log(Object.keys(obj));
