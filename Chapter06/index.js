@@ -73,7 +73,7 @@ console.log(newarr);
 ynha dekh skte hain ke do id ke similar value hai but vo first id ka hi val dega
 some()->-----------------------------------------------------------------
 some kiya karta hai ke true ya false value deta hai apne parent ke arr ko check karke 
-jaise maan tumne arr bnaya usme ek value hai jo tumhare condition ko match kar raha hai to vo true dega
+jaise  tumne arr bnaya usme ek value hai jo tumhare condition ko match kar raha hai to vo true dega
 let arr= [12,45,65,78,98];
 let newarr= arr.some(function(val){
 return val>90})

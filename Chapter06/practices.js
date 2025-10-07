@@ -135,8 +135,14 @@
 // console.log(newarr);
 
 //3.use some() to check if there is student score less than 35;
-let arr = [10,78,98,23,56];
-let newarr = arr.some(function(val){
-    return val<35;
+// let arr = [10,78,98,23,56];
+// let newarr = arr.some(function(val){
+//     return val<35;
+// })
+// console.log(newarr);
+//4.use every() to check if all number are even
+let arr = [2,4,6,9,10];
+let newarr = arr.every(function(val){
+    return val % 2===0;
 })
 console.log(newarr);
