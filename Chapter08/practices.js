@@ -2,5 +2,5 @@
 // console.dir(abcd);
 // let abcd1 = document.getElementsByClassName("abcd1");
 // console.dir(abcd1);
-let abcd = document.querySelector("abcd");
+let abcd = document.querySelectorAll("h1");
 console.dir(abcd)
