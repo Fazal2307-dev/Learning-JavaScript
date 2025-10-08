@@ -16,12 +16,20 @@ for selecting  html elements there is four way
 4.document.getElementsByClassName();
 
 agar same name element hai like html do to queryselector first wale ko select karega
-manipulation
+
+Text/conttent access->--------------------------------------------------------
 h1.innerHtml()
 .innerText()
 .textContent()
 innerText,textContent both are same dono vaalue change karte hai innerHTML html tag hi chngae kar deta
 h1.innerHTML="<i>hey</>" they will show italic hey 
+
+
+Attribute Manipulation->---------------------------------------------------------
+html elemt ke baad jo bhi hai vo attribute hai jaise <a href=""></a>
+to href attribute hai
+.setAttribute("href","https://www.google.com")
+to is setAttribut m do chiz hai first kisko aur uska value jaise ynha href ko aur usme https://www.google.com
 
 
 
