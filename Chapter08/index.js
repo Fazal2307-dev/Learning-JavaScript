@@ -20,6 +20,8 @@ manipulation
 h1.innerHtml()
 .innerText()
 .textContent()
+innerText,textContent both are same dono vaalue change karte hai innerHTML html tag hi chngae kar deta
+h1.innerHTML="<i>hey</>" they will show italic hey 
 
 
 
