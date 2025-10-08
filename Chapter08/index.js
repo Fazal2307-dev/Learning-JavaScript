@@ -30,7 +30,9 @@ html elemt ke baad jo bhi hai vo attribute hai jaise <a href=""></a>
 to href attribute hai
 .setAttribute("href","https://www.google.com")
 to is setAttribut m do chiz hai first kisko aur uska value jaise ynha href ko aur usme https://www.google.com
-
+.getAttribute()
+a.getAttribute("href") to ye href mein jo bhi value hai vo dega
+.removeAttribute()
 
 
 
