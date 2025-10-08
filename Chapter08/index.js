@@ -8,6 +8,10 @@ css badlna
 attribute
 event listeners
 
+for selecting  html element there is two way 
+
+1.document.querySelector()
+2.document.querySelectorAll()
 
 
 
