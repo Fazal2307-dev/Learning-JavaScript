@@ -33,6 +33,8 @@ to is setAttribut m do chiz hai first kisko aur uska value jaise ynha href ko au
 .getAttribute()
 a.getAttribute("href") to ye href mein jo bhi value hai vo dega
 .removeAttribute()
+a.removeAttribute("href")
+ye href mein jo bhi link ya value haai delete ho jayegi 
 
 
 
