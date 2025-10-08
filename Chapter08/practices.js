@@ -9,5 +9,9 @@
 // h1.textContent=("hi fazal waht r you doing")
 
 let a = document.querySelector("a");
-a.href="https://www.google.com";
+// a.href="https://www.google.com";
+// a.setAttribute("href","https://www.google.com");
+// console.dir(a);
+
+console.log(a.getAttribute("href"));
 
