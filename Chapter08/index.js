@@ -37,6 +37,21 @@ a.removeAttribute("href")
 ye href mein jo bhi link ya value haai delete ho jayegi 
 
 
+Dynamic Dom MAnipulation->--------------------------------------------------------------
+1.createElement()
+let h1= document.createElement("h1");
+h1.textContent = "Hey Fazal";
+document.body.append(h1)
+//create element
+//apend/prepend
+2.appendChild
+append means bnana 
+3.removeChild
+remove child from html
+4.prepend
+script file paahle 
+
+
 
 
 
