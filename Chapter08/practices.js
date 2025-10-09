@@ -8,11 +8,18 @@
 // let h1 = document.querySelector("h1");
 // h1.textContent=("hi fazal waht r you doing")
 
-let a = document.querySelector("a");
-// a.href="https://www.google.com";
-// a.setAttribute("href","https://www.google.com");
-// console.dir(a);
+// let a = document.querySelector("a");
+// // a.href="https://www.google.com";
+// // a.setAttribute("href","https://www.google.com");
+// // console.dir(a);
 
-// console.log(a.getAttribute("href"));
-console.log(a.removeAttribute("href"));
+// // console.log(a.getAttribute("href"));
+// console.log(a.removeAttribute("href"));
 
+let h1= document.createElement("h1");
+h1.textContent = "Hey Fazal";
+document.body.append(h1)
+
+let a = document.createElement("a");
+a.textContent = "https://www.google.com";
+document.body.append(a);
