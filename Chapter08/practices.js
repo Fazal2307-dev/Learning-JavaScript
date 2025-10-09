@@ -16,10 +16,14 @@
 // // console.log(a.getAttribute("href"));
 // console.log(a.removeAttribute("href"));
 
-let h1= document.createElement("h1");
-h1.textContent = "Hey Fazal";
-document.body.append(h1)
+// let h1= document.createElement("h1");
+// h1.textContent = "Hey Fazal";
+// document.body.append(h1)
 
-let a = document.createElement("a");
-a.textContent = "https://www.google.com";
-document.body.append(a);
+// let a = document.createElement("a");
+// a.textContent = "https://www.google.com";
+// document.body.append(a);
+
+let h1= document.querySelector("h1");
+h1.style.color="red";
+console.dir(h1);
