@@ -52,6 +52,11 @@ remove child from html
 script file paahle 
 
 
+Style Updaate->--------------------------------
+.style
+
+
+
 
 
 
