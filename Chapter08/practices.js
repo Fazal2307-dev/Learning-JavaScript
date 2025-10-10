@@ -25,6 +25,7 @@
 // document.body.append(a);
 
 let h1= document.querySelector("h1");
-h1.style.color="red";
-h1.style.backgroundColor="yellow"
-h1.style.
+// h1.style.color="red";
+// h1.style.backgroundColor="yellow"
+// h1.style.fontFamily="Gilroy"
+h1.classList.add("hulu")
