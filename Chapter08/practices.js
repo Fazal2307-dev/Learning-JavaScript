@@ -51,7 +51,8 @@
 // ul.append(li);
 
 //4q  create a new image element with  a placeholder source and add it to top of the div.
-let img=document.createElement("img");
-img.setAttribute("src",
-"https://images.unsplash.com/photo-1759490903008-8cf9a67b7242?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=600)");
-document.querySelector("div").prepend(img)
+// let img=document.createElement("img");
+// img.setAttribute("src",
+// "https://images.unsplash.com/photo-1759490903008-8cf9a67b7242?ixlib=rb-4.1.0&ixid=M3wxMjA
+// 3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=600)");
+// document.querySelector("div").prepend(img)
