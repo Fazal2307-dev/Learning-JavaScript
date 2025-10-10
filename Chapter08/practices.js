@@ -24,8 +24,17 @@
 // a.textContent = "https://www.google.com";
 // document.body.append(a);
 
-let h1= document.querySelector("h1");
-// h1.style.color="red";
-// h1.style.backgroundColor="yellow"
-// h1.style.fontFamily="Gilroy"
-h1.classList.add("hulu")
+// let h1= document.querySelector("h1");
+// // h1.style.color="red";
+// // h1.style.backgroundColor="yellow"
+// // h1.style.fontFamily="Gilroy"
+// // h1.classList.add("hulu")
+// h1.classList.remove("hulu");
+// h1.classList.toggle("hulu");
+
+//problem set
+//select all <li> element and print their text using a loop
+let lie = document.querySelectorAll("li")
+lie.forEach(function(val){
+    console.log(val.textContent);
+})
