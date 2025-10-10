@@ -40,7 +40,12 @@
 // })
 
 //2q.use queryselectorALl to select all button with class buy-now
-let buynow = document.querySelectorAll(".buy-now")
-buynow.forEach(function(val){
-    console.log(val.textContent)
-})
+// let buynow = document.querySelectorAll(".buy-now")
+// buynow.forEach(function(val){
+//     console.log(val.textContent)
+// })
+//3q create a new list item <li>New Task</li>and add it to the end of a <ul>
+let ul = document.querySelector("ul");
+let li = c=document.createElement("li");
+li.textContent = "New Task";
+ul.append(li);
