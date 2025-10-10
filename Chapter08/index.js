@@ -54,6 +54,7 @@ script file paahle
 
 Style Updaate->--------------------------------
 .style.color="";
+.classList()
 
 
 
