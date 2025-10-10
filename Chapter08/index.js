@@ -53,7 +53,7 @@ script file paahle
 
 
 Style Updaate->--------------------------------
-.style
+.style.color="";
 
 
 
