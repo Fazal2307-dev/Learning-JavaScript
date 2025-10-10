@@ -33,8 +33,14 @@
 // h1.classList.toggle("hulu");
 
 //problem set
-//select all <li> element and print their text using a loop
-let lie = document.querySelectorAll("li")
-lie.forEach(function(val){
-    console.log(val.textContent);
+// //select all <li> element and print their text using a loop
+// let lie = document.querySelectorAll("li")
+// lie.forEach(function(val){
+//     console.log(val.textContent);
+// })
+
+//2q.use queryselectorALl to select all button with class buy-now
+let buynow = document.querySelectorAll(".buy-now")
+buynow.forEach(function(val){
+    console.log(val.textContent)
 })
