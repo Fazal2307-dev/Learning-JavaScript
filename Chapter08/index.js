@@ -54,8 +54,16 @@ script file paahle
 
 Style Updaate->--------------------------------
 .style.color="";
-.classList()
+.classList.add()
+.classList.remove()
+.classList.toggel() means agar hai to hata dega nhi to laga dega
 
+we caan also do looping in html through js
+/select all <li> element and print their text using a loop
+let lie = document.querySelectorAll("li")
+lie.forEach(function(val){
+    console.log(val.textContent);
+})
 
 
 
