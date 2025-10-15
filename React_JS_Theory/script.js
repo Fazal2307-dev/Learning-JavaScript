@@ -1,2 +1,4 @@
 import a from './practices.js'
-console.log(a);
+import { username } from './practices.js';
+console.log(a,username);
+
