@@ -19,4 +19,11 @@ p.style.color="red";
 }
 p.addEventListener("dblclick",dobclick);
 is trah se use karte hai aur chahe to .removeEventListener laga skte hain
+
+let inpt = document.querySelector("input");
+inpt.addEventListener("input",function(e){
+    if(e.data !== null){   console.log(e.data);}
+
+maine ek input field banaya mai chata hun ke jo bhi mai type karun vo console mein dikhe 
+uske liye jab addEventListener lagaya hun usme function val pass jo console mein print karein
 */
