@@ -27,8 +27,17 @@
 // })
 
 //on change
-let sel = document.querySelector("select");
-let device = document.querySelector("#device");
-sel.addEventListener("change",function(dets){
-    device.textContent= `You Selected ${dets.target.value}`;
+// let sel = document.querySelector("select");
+// let device = document.querySelector("#device");
+// sel.addEventListener("change",function(dets){
+//     device.textContent= `You Selected ${dets.target.value}`;
+// })
+//window
+let h1 = document.querySelector("h1");
+window.addEventListener("keydown",function(dets){
+if(dets.key === " "){
+    h1.textContent= "You Typed SPACE"
+}else{
+    h1.textContent = dets.key;
+}
 })
