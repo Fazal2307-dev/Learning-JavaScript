@@ -26,4 +26,7 @@ inpt.addEventListener("input",function(e){
 
 maine ek input field banaya mai chata hun ke jo bhi mai type karun vo console mein dikhe 
 uske liye jab addEventListener lagaya hun usme function val pass jo console mein print karein
+
+change event tab chaltaa hai jab aapka koi input select ya textarea mein koi change ho jaye
+
 */
