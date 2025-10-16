@@ -28,5 +28,19 @@ maine ek input field banaya mai chata hun ke jo bhi mai type karun vo console me
 uske liye jab addEventListener lagaya hun usme function val pass jo console mein print karein
 
 change event tab chaltaa hai jab aapka koi input select ya textarea mein koi change ho jaye
+ <h1 id="device">Please Select Your device</h1>
+     <select>
+        <option selected disabled> Choose Your Devoce</option>
+        <option value="Samsung">Samsung</option>
+        <option value="Xiomi Mi 3">Mi 3</option>
+        <option value="Apple Iphone 13">Iphone 13</option>
+        <option value="Motorola g34">g34</option>
+        <option value="Oppo A32">A32</option>
 
+     </select>
+     let sel = document.querySelector("select");
+let device = document.querySelector("#device");
+sel.addEventListener("change",function(dets){
+    device.textContent= `You Selected ${dets.target.value}`;
+})
 */
